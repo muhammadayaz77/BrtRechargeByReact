@@ -1,0 +1,83 @@
+.FirstPage{
+  background-color: black;
+  background: url('../public/Images/baground.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+.inner-box{
+  border: 2px solid yellow;
+  box-shadow: 0px 0px 15px yellow;
+  background-color: rgba(0, 0, 0,0.5);
+  
+}
+.imgCon{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.inner-box h2{
+  font-size: 30px;
+  margin-top: 5px;
+}
+.logo1{
+  height: 80px;
+  width: 80px;
+}
+.logo2{
+  height: 90px;
+  width: 90px;
+}
+
+.btnCon1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn1{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.myBtn{
+  width: 150px;
+  height: 85px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: white;
+  border-radius: 15px;
+  outline: unset;
+  border: unset;
+  border-bottom: 4px solid green;
+  text-decoration: unset;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myBtn:hover{
+  background-color: transparent;
+  color: white;
+  border: 1px solid yellow;
+}
+.img3{
+  width: 70%;
+  height: 70%;
+  border-radius: 10px;
+}
+.imgCon3{
+  display: flex;
+  justify-content: center;
+}
+.redBtn{
+  border-bottom: 4px solid red;
+}
+.newBal{
+  background-color: green;
+  color: white;
+  display: inline;
+}
+.textCenter{
+  display: flex;
+  justify-content: center;
+}
